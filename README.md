@@ -3,6 +3,8 @@
 Este va a ser el repositorio del landing page de Bike and Go,
 proyecto perteneciente al Grupo 4. 
 
+IMPORTANTE: Para poder ver los documentos del landing cambiar el Branch a "master".
+
 
 ## Team Members
 
