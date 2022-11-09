@@ -10,116 +10,138 @@
     <link rel="stylesheet" href="assets/styles/styles.css">
     <title>Bike and Go - SX42</title>
 </head>
+
 <body>
-<nav>
-    <ul>
-        <li>¿Quienes Somos?</li>
-        <li>Encuentranos</li>
-        <li>Contáctanos</li>
-        <li>Descargar</li>
-        <li>Soporte</li>
-    </ul>
-</nav>
-<main>
-    <section id="hero" class="hero">
-        <div class="background-image" style="background-image: url(assets/images/fondobici.jpg)" role="img"
-             aria-label="Un astronauta caminando por el espacio"></div>
-        <h1>LAS ÚNICAS CADENAS QUE TE DAN<BR>
-            LIBERTAD SON LAS DE TU BICICLETA
-        </h1>
+    <!-- NAVBAR -->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                <img class="logo-item" src="assets/images/logoenblanco.jpg"
+                    alt="Equipo de UX en una reunión de planificación haciendo uso de materiales para trabajos colaborativos">
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
 
-        <a href="download-app.html" class="btn">Download App</a>
-        <h3>Disponible en AppStore y Playstore</h3>
-    </section>
-
-    <section id="our-work" class="our-work" >
-        <h3 class="title">¿Quienes Somos?</h3>
-        <p>Somos una empresa que promueve el uso de la bicicleta a través del alquiler <br>
-            de las mismas de manera segura, asimismo de plantearla como una alternativa <br>
-            saludable y responsable con el medio ambiente.</p>
-
-        <hr>
-
-        <ul class="grid">
-
-            <li>
-                <img src="assets/images/logoenblanco.jpg" alt="Equipo de UX en una reunión de planificación haciendo uso de materiales para trabajos colaborativos">
-            </li>
-
-        </ul>
-    </section>
-
-    <section id="services" class="services">
-        <h3 class="title">Encuentra tu local de alquiler de bicicletas más cercano</h3>
-
-        <hr class="blanco">
-        <ul class="grid">
-            <li>
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                <h4>Información<br>
-                    Relevante
-                </h4>
-                <p>
-                    - A partir del gráfico podrás conocer los diferentes locales
-                    que contamos para el alquiler y devolución de bicicletas.<br>
-                    - Horario de atención es de 8 am a 10 pm
-                </p>
-            </li>
-
-        </ul>
-    </section>
-
-    <section id="reviews" class="reviews">
-        <h3 class="title">Testimonials</h3>
-        <p class="quote">
-            Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </p>
-        <p class="author">— Patrick Farrell</p>
-
-    </section>
-
-    <section id="contact" class="contact">
-        <h3 class="title">Contacta con Nosotros</h3>
-        <p>Please share your email address with us. Some of our representatives will be contacting You soon.</p>
-        <hr>
-        <form>
-            <input type="email" name="mailcontact" id="mail_contact" placeholder="Email">
-            <a href="#" class="btn">Submit</a>
-        </form>
-    </section>
-
-    <section id="Descarga-app" class="descarga-app">
-        <h3 class="title">
-            Entonces, ¿Qué estas esperando?
-        </h3>
-        <p>Descarga ya! Y empieza a utilizar todo los que<br>
-            tenemos preparado para ti totalmente gratis.</p>
-
-    </section>
-</main>
-
-<footer>
-    <div class="background-image" style="background-image: url(assets/images/fondohojas.jpg)" role="img"
-         aria-label="background-de-hojas"></div>
-    <img src="assets/images/logoenblanco.jpg" alt="imagen logo de la startup">
-    <div class="social-icons-container">
-        <a href="" class="social-icons"></a>
-        <a href="" class="social-icons"></a>
-        <a href="" class="social-icons"></a>
-        <a href="" class="social-icons"></a>
+        <div class="nav-links">
+            <a href="#">¿Quienes Somos?</a>
+            <a href="#">Encuentranos</a>
+            <a href="#">Contáctanos</a>
+            <a href="#">Descargar</a>
+            <a href="#">Soporte</a>
+        </div>
     </div>
-    <ul class="footer-menu-container">
-        <li class="menu-item">Home</li>
-        <li class="menu-item">¿Quienes somos?</li>
-        <li class="menu-item">Encuentranos</li>
-        <li class="menu-item">Contacto</li>
-        <li class="menu-item">Mobile app</li>
-        <li class="menu-item">Soporte</li>
-    </ul>
-    <span class="copyright">&copy;2022, Bike ang Go. All rights reserved. We love our users!</span>
+    <!-- END NAVBAR -->
+    
+    <main>
+        <section id="hero" class="hero">
+            <div class="background-image" style="background-image: url(assets/images/fondobici.jpg)" role="img"
+                aria-label="Un astronauta caminando por el espacio"></div>
+            <h1>LAS ÚNICAS CADENAS QUE TE DAN<BR>
+                LIBERTAD SON LAS DE TU BICICLETA
+            </h1>
 
-</footer>
+            <a href="download-app.html" class="btn">Download App</a>
+            <h3>Disponible en AppStore y Playstore</h3>
+        </section>
+
+        <section id="our-work" class="our-work">
+            <h3 class="title">¿Quienes Somos?</h3>
+            <p>Somos una empresa que promueve el uso de la bicicleta a través del alquiler <br>
+                de las mismas de manera segura, asimismo de plantearla como una alternativa <br>
+                saludable y responsable con el medio ambiente.</p>
+
+            <hr>
+
+            <ul class="grid">
+
+                <li>
+                    <img src="assets/images/logoenblanco.jpg"
+                        alt="Equipo de UX en una reunión de planificación haciendo uso de materiales para trabajos colaborativos">
+                </li>
+
+            </ul>
+        </section>
+
+        <section id="services" class="services">
+            <h3 class="title">Encuentra tu local de alquiler de bicicletas más cercano</h3>
+
+            <hr class="blanco">
+            <ul class="grid">
+                <li>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h4>Información<br>
+                        Relevante
+                    </h4>
+                    <p>
+                        - A partir del gráfico podrás conocer los diferentes locales
+                        que contamos para el alquiler y devolución de bicicletas.<br>
+                        - Horario de atención es de 8 am a 10 pm
+                    </p>
+                </li>
+
+            </ul>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h3 class="title">Testimonials</h3>
+            <p class="quote">
+                Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora
+                torquent per conubia nostra, per inceptos himenaeos.
+            </p>
+            <p class="author">— Patrick Farrell</p>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h3 class="title">Contacta con Nosotros</h3>
+            <p>Please share your email address with us. Some of our representatives will be contacting You soon.</p>
+            <hr>
+            <form>
+                <input type="email" name="mailcontact" id="mail_contact" placeholder="Email">
+                <a href="#" class="btn">Submit</a>
+            </form>
+        </section>
+
+        <section id="Descarga-app" class="descarga-app">
+            <h3 class="title">
+                Entonces, ¿Qué estas esperando?
+            </h3>
+            <p>Descarga ya! Y empieza a utilizar todo los que<br>
+                tenemos preparado para ti totalmente gratis.</p>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="background-image" style="background-image: url(assets/images/fondohojas.jpg)" role="img"
+            aria-label="background-de-hojas"></div>
+        <img src="assets/images/logoenblanco.jpg" alt="imagen logo de la startup">
+        <div class="social-icons-container">
+            <a href="" class="social-icons"></a>
+            <a href="" class="social-icons"></a>
+            <a href="" class="social-icons"></a>
+            <a href="" class="social-icons"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item">Home</li>
+            <li class="menu-item">¿Quienes somos?</li>
+            <li class="menu-item">Encuentranos</li>
+            <li class="menu-item">Contacto</li>
+            <li class="menu-item">Mobile app</li>
+            <li class="menu-item">Soporte</li>
+        </ul>
+        <span class="copyright">&copy;2022, Bike ang Go. All rights reserved. We love our users!</span>
+
+    </footer>
 
 
 </body>
+
 </html>
